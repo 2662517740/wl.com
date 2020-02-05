@@ -37,7 +37,7 @@ mybatis:
 
 logging:
   level:
-    com.h5: debug   # 打印sql
+    com.web: debug   # 打印sql
 
 fdfs:
   racker_server: 192.168.46.137

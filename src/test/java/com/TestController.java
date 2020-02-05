@@ -1,10 +1,10 @@
 package com;
 
-import com.entity.User;
 import com.redis.RedisUtils;
 import com.service.IUserService;
 import com.utils.CreateMD5;
 import com.utils.UUIDUtil;
+import com.web.entity.User;
 import org.junit.runner.RunWith;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +19,7 @@ import java.util.HashMap;
 import java.util.List;
 
 
-@SpringBootTest(classes = {Test.class})
+@SpringBootTest(classes = {test.class})
 @RunWith(SpringRunner.class)
 public class TestController {
 
