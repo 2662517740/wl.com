@@ -1,8 +1,8 @@
 package com.web.service.impl;
 
 import com.web.entity.Supplement;
-import com.mapper.SupplementMapper;
-import com.service.ISupplementService;
+import com.web.mapper.SupplementMapper;
+import com.web.service.ISupplementService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

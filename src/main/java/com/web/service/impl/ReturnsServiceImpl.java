@@ -1,8 +1,8 @@
 package com.web.service.impl;
 
 import com.web.entity.Returns;
-import com.mapper.ReturnsMapper;
-import com.service.IReturnsService;
+import com.web.mapper.ReturnsMapper;
+import com.web.service.IReturnsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

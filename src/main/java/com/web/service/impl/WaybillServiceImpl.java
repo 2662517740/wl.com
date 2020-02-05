@@ -1,8 +1,8 @@
 package com.web.service.impl;
 
 import com.web.entity.Waybill;
-import com.mapper.WaybillMapper;
-import com.service.IWaybillService;
+import com.web.mapper.WaybillMapper;
+import com.web.service.IWaybillService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

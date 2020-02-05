@@ -1,7 +1,8 @@
 package com.web.service.impl;
 
-import com.mapper.UserMapper;
-import com.service.IUserService;
+import com.web.entity.User;
+import com.web.mapper.UserMapper;
+import com.web.service.IUserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

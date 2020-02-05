@@ -1,8 +1,8 @@
 package com.web.service.impl;
 
 import com.web.entity.Dchange;
-import com.mapper.DchangeMapper;
-import com.service.IDchangeService;
+import com.web.mapper.DchangeMapper;
+import com.web.service.IDchangeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

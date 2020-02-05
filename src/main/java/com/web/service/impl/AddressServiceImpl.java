@@ -1,8 +1,8 @@
 package com.web.service.impl;
 
 import com.web.entity.Address;
-import com.mapper.AddressMapper;
-import com.service.IAddressService;
+import com.web.mapper.AddressMapper;
+import com.web.service.IAddressService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

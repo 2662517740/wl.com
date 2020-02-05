@@ -1,8 +1,8 @@
 package com.web.service.impl;
 
 import com.web.entity.Administrators;
-import com.mapper.AdministratorsMapper;
-import com.service.IAdministratorsService;
+import com.web.mapper.AdministratorsMapper;
+import com.web.service.IAdministratorsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

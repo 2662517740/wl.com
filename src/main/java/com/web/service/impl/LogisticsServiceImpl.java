@@ -1,8 +1,8 @@
 package com.web.service.impl;
 
 import com.web.entity.Logistics;
-import com.mapper.LogisticsMapper;
-import com.service.ILogisticsService;
+import com.web.mapper.LogisticsMapper;
+import com.web.service.ILogisticsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
