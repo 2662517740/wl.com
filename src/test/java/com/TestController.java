@@ -1,10 +1,11 @@
 package com;
 
-import com.redis.RedisUtils;
-import com.service.IUserService;
-import com.utils.CreateMD5;
-import com.utils.UUIDUtil;
 import com.web.entity.User;
+import com.web.redis.RedisUtils;
+import com.web.service.IUserService;
+import com.web.test;
+import com.web.utils.CreateMD5;
+import com.web.utils.UUIDUtil;
 import org.junit.runner.RunWith;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,7 +38,7 @@ public class TestController {
     @Test
     public void testRegistered() throws UnsupportedEncodingException {
         User user = new User();
-        user.setUserName("dawei");
+        user.setUserName("FANZAO");
         HashMap<String,Object> map = new HashMap<>();
         map.put("userName" , user.getUserName());
         List<User> list = (List<User>) userService.listByMap(map);

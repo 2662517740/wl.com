@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 //@EnableEurekaClient
-@MapperScan(basePackages = {"com.mapper"})
+@MapperScan(basePackages = {"com.web.mapper"})
 public class test {
     public static void main(String args[]){
         SpringApplication.run(test.class , args);
